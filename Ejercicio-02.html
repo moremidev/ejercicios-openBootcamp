@@ -1,24 +1,31 @@
 <!DOCTYPE html>
-<head>
-    <title>Ejercicio 02 - Formularios en HTML</title>
-</head>
-<body>
-    <form action="/">
-        <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre">
-        </div>
-        <div>
-            <label for="edad">Edad</label>
-            <input type="number" name="edad" id="edad" min="0" max="120">
-        </div>
-        <div>
-            <label for="frase">Frase Favorita</label>
-            <textarea name="frase" id="frase" cols="30" rows="10"></textarea>
-        </div>
-
-        <button type="reset">Reset</button>
-        <button type="submit">Enviar</button>
-    </form>
-</body>
+    <head>
+        <title>Ejercicio 02/2 - Tablas en HTML</title>
+    </head>
+    <body>
+        <table>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Año de publicación</th>
+            <th>Enlace a Amazon</th>
+            <tr>
+                <td>Viaje al Centro de la Tierra</td>
+                <td>Julio Verne</td>
+                <td>1864</td>
+                <td><a href="https://www.amazon.com/-/es/Julio-Verne-ebook/dp/B003L0QSL6/ref=sr_1_2?keywords=viaje+al+centro+de+la+tierra&qid=1680656090&sprefix=viaje+al+centro%2Caps%2C309&sr=8-2">Link</a></td>
+            </tr>
+            <tr>
+                <td>La isla misteriosa</td>
+                <td>Julio Verne</td>
+                <td>1876</td>
+                <td><a href="https://www.amazon.com/-/es/Julio-Verne-ebook/dp/B07FDJ5RDN/ref=d_pd_sbs_sccl_1_6/131-3000682-4043331?pd_rd_w=t8B1P&content-id=amzn1.sym.3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=TNMR19Y5VAPM7MQGYC01&pd_rd_wg=xAmpS&pd_rd_r=ba323f4e-c005-418c-8be3-d93e408ae766&pd_rd_i=B07FDJ5RDN&psc=1">Link</a></td>
+            </tr>
+            <tr>
+                <td>El escarabajo de oro</td>
+                <td>Edgar Allan Poe</td>
+                <td>1843</td>
+                <td><a href="https://www.amazon.com/-/es/Edgar-Allan-Poe-ebook/dp/B00CSUXW96/ref=sr_1_1?crid=317Y7MWAD6NRS&keywords=el+escarabajo+de+oro&qid=1680656439&s=digital-text&sprefix=el+escaraba%2Cdigital-text%2C272&sr=1-1">Link</a></td>
+            </tr>
+        </table>
+    </body>
 </html>
